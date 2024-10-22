@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5DC;
+    font-family: Poppins;
+}
+
+header {
+    background-color: #556B2F;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #F5F5DC;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #F5F5DC;
+}
+
+img {
+    border-radius: 50px;
+    border: 8px solid #556B2F;
+}
+
+.minha_foto {
+    text-align: center;
+    padding-top: 30px;
+}
+.minha_foto h1{
+    padding-top: 20px;
+}
+.textoPrincipal {
+    margin: 10px;
+    padding: 5px;
+    padding-top: 50px;
+}
+.textoPrincipal p {
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.textoPrincipalHabilidades {
+    margin: 10px;
+    padding: 5px;
+    padding-top: 10px;
+}
+.textoPrincipalHabilidades h3 {
+    padding-top: 10px;
+}
+.textoPrincipalHabilidades p {
+    padding-top: 10px;
+}
+footer p{
+    margin-right: 1100px;
+    font-size: smaller;
+}
+footer img{
+    border-radius: 0px;
+    border: 0px;
+}
+.instituicoes {
+    margin: 10px;
+    padding: 5px;
+    padding-top: 10px;
+}
+.instituicoes img{
+    border: 0px;
+}
